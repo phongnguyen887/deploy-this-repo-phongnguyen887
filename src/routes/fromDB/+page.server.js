@@ -40,6 +40,19 @@ export async function load() {
                     'Table does not exist, creating and seeding it with dummy data now...'
                 )
                 // Table is not created yet
+                await seed()
+            const { rows: containers } = await db.query(            
+                `SELECT 
+                    containerNumber,
+                    nameOfShip,
+                    containerSize,
+                    dateContainerShipped 
+                FROM 
+                    containers`
+                )
+            return {
+                containers: containers
+            }
         }else{
             throw error
         }
