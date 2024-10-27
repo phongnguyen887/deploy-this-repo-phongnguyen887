@@ -26,6 +26,6 @@
 
 # Where am I deployed?
 
-<enter deploy-this-repo-phongnguyen887.vercel.app>
+<deploy-this-repo-phongnguyen887.vercel.app>
 
 
