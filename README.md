@@ -26,6 +26,6 @@
 
 # Where am I deployed?
 
-([deploy-this-repo-phongnguyen887.vercel.app](https://deploy-this-repo-phongnguyen887-5bid6lnrl.vercel.app/))
+([deploy-this-repo-phongnguyen887.vercel.app](https://deploy-this-repo-phongnguyen887.vercel.app/))
 
 
